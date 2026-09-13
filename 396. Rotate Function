@@ -8,7 +8,7 @@ class Solution {
             F += (long)i * nums[i];
         }
         long result = F;
-        
+    
         for(int k = 1; k < n; k++) {
             F = F + sum - (long)n * nums[n - k];
             result = Math.max(result, F);
