@@ -6,7 +6,6 @@ class Solution {
         }
         Arrays.sort(stones);
         helper(stones, n - 1);
-
         return stones[n-1];
 
     }
