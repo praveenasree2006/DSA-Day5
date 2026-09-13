@@ -10,4 +10,4 @@ class Solution {
     public int mirrorDistance(int n) {
         return Math.abs(n - reverse(n));
     }
-
+}
