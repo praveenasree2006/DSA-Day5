@@ -17,7 +17,6 @@ class Solution {
             F = F + sum - (long)n * nums[n - k];
             result = Math.max(result, F);
         }
-        
         return (int)result;
     }
 }
