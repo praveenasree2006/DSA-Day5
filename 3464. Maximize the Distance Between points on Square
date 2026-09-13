@@ -17,7 +17,6 @@ class Solution {
             }
         }
         Collections.sort(arr);
-
         long lo = 1;
         long hi = side;
         int ans = 0;
