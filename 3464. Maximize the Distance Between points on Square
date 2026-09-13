@@ -1,7 +1,6 @@
 class Solution {
     public int maxDistance(int side, int[][] points, int k) {
         List<Long> arr = new ArrayList<>();
-
         for (int[] p : points) {
             int x = p[0];
             int y = p[1];
