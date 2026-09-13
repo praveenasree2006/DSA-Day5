@@ -56,7 +56,6 @@ class Solution {
         }
         return false;
     }
-
     private int lowerBound(List<Long> arr, long target) {
         int left = 0;
         int right = arr.size();
