@@ -29,7 +29,6 @@ class Solution {
         }
         return ans;
     }
-
     private boolean check(List<Long> arr, int side, int k, long limit) {
         long perimeter = side * 4L;
 
