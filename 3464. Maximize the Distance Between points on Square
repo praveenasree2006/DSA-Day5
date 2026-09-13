@@ -44,7 +44,6 @@ class Solution {
                 }
                 cur = arr.get(idx);
             }
-
             if (cur >= 0) {
                 return true;
             }
