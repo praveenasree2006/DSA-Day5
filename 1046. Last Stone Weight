@@ -7,7 +7,6 @@ class Solution {
         Arrays.sort(stones);
         helper(stones, n - 1);
         return stones[n-1];
-
     }
     private void helper(int[] arr, int i){
         if(arr[i - 1] == 0){
